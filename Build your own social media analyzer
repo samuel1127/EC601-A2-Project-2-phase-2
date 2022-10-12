@@ -1,0 +1,44 @@
+Build your own social media analyzer:
+       We are trying to create a curriculum and school evaluation system：
+
+       School Evaluation: Analyze current student support or lack of support for school policies 
+                          through emotional responses to student attendance as a way to make 
+                          better efforts to bring about a better learning life for students.
+
+       Curriculum evaluation: Through the students' emotional evaluation, we can analyze whether 
+                              there are any problems with the current curriculum, and adjust the 
+                              teaching plan and content accordingly.
+                              
+Define MVP and user stories:
+       We obtained student sentiment ratings through different multiple social media types.
+      
+       MVP: From different social media platforms, retrieve relevant user accounts.
+            Filter the evaluation sentences for different emotions.
+            NLP analyzes the filtered data to get the system evaluation scores.
+       
+       User stories:
+            First, as a school: 1. The school administration can use student evaluations and expressions
+                                   of emotion to know where there is room for improvement.
+                                2. Professors and other staff can use this data to know how the school 
+                                   supports the attitudes and treatment of staff.
+                                3. Students can use this data to determine if the school is a good fit for 
+                                   their schooling plans before applying.
+                               
+            Second, as a curriculum: 1. The professor can analyze what potential problems the classroom has 
+                                        by the different emotions of the students.
+                                     2. The professor can also find out through different channels which 
+                                        students need care and help.
+                                     3. Students who have not yet taken a course but are planning to take a
+                                        course can see some reviews of the course in advance to determine 
+                                        whether they will take it.
+                       
+Translate user stories to a modular design.
+       If you want a modular design, you need to classify the relevant content in advance.
+
+Who is your user?
+       University students, pending students and school staff, etc.
+
+What are the basic user stories?
+            What students can see about the difficulty and teaching style of the course and the professor's comments 
+       from previous students before they take the course.
+
